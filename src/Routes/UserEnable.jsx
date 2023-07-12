@@ -23,7 +23,7 @@ const UserEnable = () => {
     };
 
     fetch(
-      `http://ec2-18-222-239-12.us-east-2.compute.amazonaws.com:8080/api/userState/${email}`,
+      `http//backend-digital-booking-production.up.railway.app/api/userState/${email}`,
       requestOptions
     )
       .then((res) => res.json())

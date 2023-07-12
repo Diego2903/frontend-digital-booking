@@ -1,5 +1,5 @@
 const ENDPOINT =
-  "http://ec2-18-222-239-12.us-east-2.compute.amazonaws.com:8080";
+  "http://backend-digital-booking-production.up.railway.app";
 
 export default function loginService({ email, password }) {
   return fetch(`${ENDPOINT}/api/login`, {

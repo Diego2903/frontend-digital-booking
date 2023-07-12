@@ -167,7 +167,7 @@ const Form = () => {
             };
 
             fetch(
-              "http://ec2-18-222-239-12.us-east-2.compute.amazonaws.com:8080/s3/upload/" +
+              "http://backend-digital-booking-production.up.railway.app/s3/upload/" +
                 response.data.idProduct,
               requestOptions
             )

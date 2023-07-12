@@ -111,7 +111,7 @@ const Body = () => {
   const fetchProducts = (city, formattedStartDate, formattedEndDate) => {
     setProductos([]);
     let url =
-      "http://ec2-18-222-239-12.us-east-2.compute.amazonaws.com:8080/product/getAll?";
+      "http://backend-digital-booking-production.up.railway.app/product/getAll?";
 
     if (city && city.length > 0 && formattedStartDate === "Invalid Date") {
       url += `nameCity=${city}`;
