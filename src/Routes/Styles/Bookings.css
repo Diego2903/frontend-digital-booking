@@ -1,0 +1,106 @@
+
+  .reservation-page {
+    max-height: calc(100vh - (10vh + 10vh));
+  
+    overflow-y: scroll; 
+  }
+  
+
+  .reservation-page {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+
+    gap:20px;
+  }
+  
+  .left-section {
+    
+    width: 50%;
+  }
+  
+  .right-section {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    margin-bottom: 10px;
+  }
+  
+  .reserve-button {
+    margin-top: 20px;
+    width: 100%;
+    
+    background-color: #9dcd5aa3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .reserve-button:hover {
+    background-color: #45a049;
+  }
+  
+  .reserve-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.3);
+    
+  }
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+
+  .loading{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-cards-productos .loading{
+    background-color: #dedede;
+  }
+
+  @media (max-width: 768px) {
+    .reservation-page {
+      flex-direction: column;
+    }
+
+    .left-section {
+    
+      width: 100%;
+    }
+    
+    .right-section {
+      width: 100%;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    
+}
+  
+  @media (max-width: 414px) {
+ 
+  }
+  

@@ -1,0 +1,121 @@
+
+.rdrDateRangePickerWrapper {
+  font-family: sans-serif;
+  display: flex;
+}
+.rdrStaticRangeLabel {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 25px;
+  font-size: 14px;
+}
+.rdrDayToday .rdrDayNumber span:after {
+  background-color: #3f51b5;
+}
+.datePicker {
+  justify-content: space-around;
+}
+.rdrStaticRange {
+  border: none;
+}
+.rdrCalendarWrapper,
+.rdrDefinedRangesWrapper {
+  flex: 1;
+  border: none;
+}
+@media (max-width: 1000px) {
+  .rdrMonths {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .rdrDateRangePickerWrapper {
+    display: block;
+  }
+  .datePicker {
+    display: flex;
+    flex-direction: column;
+  }
+  .rdrMonths {
+    flex-direction: column;
+  }
+}
+
+   .rdrDefinedRangesWrapper {
+    display: none;
+  }
+
+ 
+
+  .calendar-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    padding: 10px;
+  }
+
+  .selected-dates{
+    padding-bottom: 10px;
+    font-size: 14px;
+
+    font-weight: bold;
+  }
+
+  .btn-reservar{
+    padding: 10px 20px;
+    background-color: #607D8B;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-reservar a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+  }
+
+  .banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner-text {
+    font-size: 14px;
+    font-weight:normal;
+    margin-bottom: 10px;
+  }
+  
+  .btn-reservar:hover {
+    background-color: #384951;
+  }
+  
+  .btn-reservarn:focus {
+    outline: none;
+  }
+
+
+
+  @media (max-width: 1040px) {
+    .calendar-conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    padding: 10px;
+  }
+}
+  
+  @media (max-width: 480px) {
+ 
+  }
+  

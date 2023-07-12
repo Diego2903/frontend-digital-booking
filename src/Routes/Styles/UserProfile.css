@@ -1,0 +1,162 @@
+.container-profile {
+    max-width: 50vw;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title1-profile {
+    color: #333;
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .title2-profile::first-letter {
+    text-transform: uppercase;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+  } */
+  
+
+  
+  .title2-profile {
+    color: #333;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .p-profile {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-editar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-editar:hover {
+    background-color: #2980b9;
+  }
+
+  .avatar-usuario-profile{
+    background-color: #263238;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    width: 100px;
+    height: 100px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+
+    margin-top: 30px;
+  }
+
+
+  
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .container-profile {
+    padding: 10px;
+  }
+  
+  .title1-profile {
+    font-size: 20px;
+  }
+
+  .title2-profile::first-letter {
+    text-transform: uppercase;
+  }
+  
+  .profile {
+    margin-top: 10px;
+  }
+  
+  .title2-profile {
+    font-size: 18px;
+  }
+  
+  .p-profile {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .btn-editar {
+    font-size: 14px;
+  }
+
+  .avatar-usuario-profile{
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+
+    margin-top: 20px;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 414px) {
+  .container-profile {
+    padding: 10px;
+  }
+  
+  .title1-profile {
+    font-size: 15px;
+  }
+
+  
+  .profile {
+    margin-top: 10px;
+  }
+  
+  .title2-profile {
+    font-size: 14px;
+  }
+  
+  .p-profile {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  
+  .btn-editar {
+    font-size: 12px;
+  }
+
+  .avatar-usuario-profile{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+
+    margin-top: 20px;
+  }
+}

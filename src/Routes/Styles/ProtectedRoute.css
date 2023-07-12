@@ -1,0 +1,65 @@
+.container-pr {
+  max-width: 80vw;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-pr {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.p-pr {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+
+.container-pr .btn-regresar {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container-pr .btn-regresar :hover {
+  background-color: #c0392b;
+}
+
+.icon-forbidden {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+.icon-forbidden img{
+  height: 50px;
+}
+
+.btn-regresar {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-regresar:hover {
+  background-color: #c0392b;
+}

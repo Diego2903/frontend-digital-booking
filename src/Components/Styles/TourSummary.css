@@ -1,0 +1,191 @@
+.tour-summary {
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    width: 100%;
+
+  }
+  
+ .title-tour {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+ .location-tour {
+    margin-bottom: 10px;
+    color: #333333;
+
+    width: 100%;
+    padding: 10px;
+    background-color: #9dcd5aa3;
+
+    display: flex;
+    flex-direction: row;
+
+
+  }
+
+  .location-tour img{
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .subtitle-tour {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+
+    padding-left: 10px;
+
+    position: relative;
+  }
+  
+  .subtitle-tour::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .text-tour{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    
+    text-align:start;
+    color: #666;
+    margin-bottom: 20px;
+      
+  }
+
+  .atributes-tour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+  
+
+  }
+
+  .atribute-tour{
+    padding:  5px 20px 30px 20px;
+    font-size: 0.8em;
+
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+  }
+
+  .atribute-tour img{
+    width: 20px;
+    border-radius: 5px;
+    height: auto;
+
+    margin-right: 10px;
+   
+  }
+
+  .atribute-tour span{
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .politics-tour{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .politic-tour {
+    padding: 10px;
+  
+  }
+  
+  .politic-tour p{
+    text-align: justify;
+    font-size: 0.8em;
+
+
+  }
+  
+  .politic-tour h3{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  
+    padding-left: 5px;
+    border-radius: 8px;
+    background-color: #9dcd5aa3;
+  }
+  
+  
+  .back-button-detail {
+    color: #607D8B;
+    cursor: pointer;
+
+    font-size: 0.8em ;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .back-button-detail a{
+    font-weight: normal;
+  }
+  
+
+  .back-button-detail a:hover {
+    text-decoration:underline;
+    
+  }
+
+  .carousel .slide .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .carousel .slide img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel .carousel-status {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .tour-summary {
+      margin-bottom: 0px;
+  
+    }
+    
+}
+  
+  @media (max-width: 414px) {
+ 
+  }
+
+
+  

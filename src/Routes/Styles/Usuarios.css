@@ -1,0 +1,155 @@
+.usuarios{
+    overflow-y: scroll; 
+    max-height: calc(100vh - (10vh + 10vh));
+    width: 100%;
+  }
+
+  .page-name{
+    width: 100%;
+    padding: 10px;
+    background-color: #84cc16;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+
+    font-weight: bold;
+
+    font-size: larger;
+}
+
+.table-responsive {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+.table-responsive  th {
+  background-color: rgb(240, 240, 240);
+  }
+  
+  .btn-delete{
+    border: 1px solid red;
+    color: red;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    height: 40px;
+    
+    font-weight: 4em;
+    font-size: 1em;
+
+    width: 100px;
+  }
+  
+  .btn-delete:hover {
+    background-color: #cc0000;
+    color: white;
+  }
+
+  .btn-category-change{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    height: 40px;
+    
+    font-weight: 4em;
+    font-size: 1em;
+    width: 100px;
+
+    margin-top: 10px;
+  }
+  
+
+  .btn-category-change:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  
+  .table-responsive th,
+  .table-responsive td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .btn-createCategory{
+    background-color: #333131;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .contenedor-btn-createCategory{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .table-responsive {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .table-responsive thead,
+    .table-responsive tbody,
+    .table-responsive th,
+    .table-responsive td,
+    .table-responsive tr {
+      display: block;
+    }
+    
+    .table-responsive thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    
+    .table-responsive tr {
+      border: 1px solid #ddd;
+    }
+    
+    .table-responsive td {
+      border: none;
+      border-bottom: 1px solid #ddd;
+      position: relative;
+      padding-left: 50%;
+    }
+    
+    .table-responsive td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+    }
+    
+    .table-responsive td:nth-of-type(1):before {
+      content: "Usuarios";
+    }
+    
+    .table-responsive td:nth-of-type(2):before {
+      content: "Roles";
+    }
+
+    .table-responsive td:nth-of-type(3):before {
+      content: "Acciones";
+    }
+    
+ }

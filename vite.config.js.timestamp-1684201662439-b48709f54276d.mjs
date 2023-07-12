@@ -1,0 +1,19 @@
+// vite.config.js
+import { defineConfig } from "file:///C:/Users/user/Documents/PROYECTO%20DH/equipo-05/frontend-digital-booking/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/user/Documents/PROYECTO%20DH/equipo-05/frontend-digital-booking/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import liveReload from "file:///C:/Users/user/Documents/PROYECTO%20DH/equipo-05/frontend-digital-booking/node_modules/vite-plugin-live-reload/dist/index.js";
+var vite_config_default = defineConfig({
+  plugins: [
+    react({
+      include: "*/*.jsx"
+    }),
+    liveReload("./src/Components/Body.jsx")
+  ],
+  server: {
+    hmr: true
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFx1c2VyXFxcXERvY3VtZW50c1xcXFxQUk9ZRUNUTyBESFxcXFxlcXVpcG8tMDVcXFxcZnJvbnRlbmQtZGlnaXRhbC1ib29raW5nXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFx1c2VyXFxcXERvY3VtZW50c1xcXFxQUk9ZRUNUTyBESFxcXFxlcXVpcG8tMDVcXFxcZnJvbnRlbmQtZGlnaXRhbC1ib29raW5nXFxcXHZpdGUuY29uZmlnLmpzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9DOi9Vc2Vycy91c2VyL0RvY3VtZW50cy9QUk9ZRUNUTyUyMERIL2VxdWlwby0wNS9mcm9udGVuZC1kaWdpdGFsLWJvb2tpbmcvdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJ1xyXG5pbXBvcnQgcmVhY3QgZnJvbSAnQHZpdGVqcy9wbHVnaW4tcmVhY3QnXHJcbmltcG9ydCBsaXZlUmVsb2FkIGZyb20gJ3ZpdGUtcGx1Z2luLWxpdmUtcmVsb2FkJ1xyXG5cclxuLy8gaHR0cHM6Ly92aXRlanMuZGV2L2NvbmZpZy9cclxuZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHtcclxuICBwbHVnaW5zOiBbXHJcbiAgICByZWFjdCh7XHJcbiAgICAgIGluY2x1ZGU6IFwiKi8qLmpzeFwiLFxyXG4gICAgfSksXHJcbiAgICBsaXZlUmVsb2FkKFwiLi9zcmMvQ29tcG9uZW50cy9Cb2R5LmpzeFwiKVxyXG4gIF0sXHJcbiAgc2VydmVyOiB7XHJcbiAgICBobXI6IHRydWVcclxuICB9XHJcbn0pXHJcbiJdLAogICJtYXBwaW5ncyI6ICI7QUFBb1osU0FBUyxvQkFBb0I7QUFDamIsT0FBTyxXQUFXO0FBQ2xCLE9BQU8sZ0JBQWdCO0FBR3ZCLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVM7QUFBQSxJQUNQLE1BQU07QUFBQSxNQUNKLFNBQVM7QUFBQSxJQUNYLENBQUM7QUFBQSxJQUNELFdBQVcsMkJBQTJCO0FBQUEsRUFDeEM7QUFBQSxFQUNBLFFBQVE7QUFBQSxJQUNOLEtBQUs7QUFBQSxFQUNQO0FBQ0YsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K

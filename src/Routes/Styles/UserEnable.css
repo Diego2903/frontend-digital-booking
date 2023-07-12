@@ -1,0 +1,52 @@
+  .valid-account {
+    background-color: #4caf50;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+
+  .white {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .white  p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .valid-account  p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white
+  }
+
+  .not-valid-account  p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white
+  }
+
+
+
+  .not-valid-account {
+    background-color: red;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+

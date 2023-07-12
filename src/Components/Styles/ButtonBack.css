@@ -1,0 +1,17 @@
+.buttonBack {
+    background-color:#263238;
+
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+  }
+
+.buttonBack img{
+    width: 20px;
+    height: auto;
+}
+
+  
