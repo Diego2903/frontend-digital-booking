@@ -1,5 +1,5 @@
 const ENDPOINT =
-  "http://backend-digital-booking-production.up.railway.app";
+  "https://backend-digital-booking-production.up.railway.app";
 
 export default function loginService({ email, password }) {
   return fetch(`${ENDPOINT}/api/login`, {

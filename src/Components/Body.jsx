@@ -111,7 +111,7 @@ const Body = () => {
   const fetchProducts = (city, formattedStartDate, formattedEndDate) => {
     setProductos([]);
     let url =
-      "http://backend-digital-booking-production.up.railway.app/product/getAll?";
+      "https://backend-digital-booking-production.up.railway.app/product/getAll?";
 
     if (city && city.length > 0 && formattedStartDate === "Invalid Date") {
       url += `nameCity=${city}`;

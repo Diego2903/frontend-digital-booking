@@ -167,7 +167,7 @@ const Form = () => {
             };
 
             fetch(
-              "http://backend-digital-booking-production.up.railway.app/s3/upload/" +
+              "https://backend-digital-booking-production.up.railway.app/s3/upload/" +
                 response.data.idProduct,
               requestOptions
             )
